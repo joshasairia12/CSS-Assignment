@@ -1,0 +1,80 @@
+ body {
+  background-color: black;
+  color: aliceblue;
+ }
+ .portfolio{
+    border: 2px solid black;
+     width: 200px;
+    height: 200px; 
+ background-color: green;
+    animation: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+      animation-direction: alternate; 
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+ color: aliceblue;
+margin: 200px;
+ transform: translate(70px, 70px);
+ background-image: linear-gradient(to bottom right, red, yellow, green, blue); 
+ /* transform: skewY(79deg);  */
+ }
+ .portfolio::after{
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: linear-gradient(to bottom right, red, yellow, green, blue); 
+     width: 100px;
+    height: 100px; 
+ }  
+ .portfolio:hover{
+     animation-play-state: paused; 
+}
+p.active{
+    color: red; 
+} 
+.portfolio  ::after{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}  
+    @keyframes rotate{
+        0%{
+            opacity: 0;
+            background-color: orange;
+            border-radius: 360px;
+            transform: rotate(360deg);
+            scale: 0.5;
+        }
+
+        48%{
+            background-color: red;
+            border-radius: 360px;
+            transform: rotate(0deg);
+            scale: 2;
+        }
+        50%{
+            background-color: blue;
+            border-radius: 500px;
+            transform: rotate(0deg);
+            scale: 2;
+        }
+        100%{
+            background-color:green;
+            border-radius: 360px;
+            transform: rotate(0deg);
+            scale: 2;
+        }  
+      
+      h1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: aliceblue;
+      }
+    }

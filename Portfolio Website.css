@@ -1,0 +1,52 @@
+div {
+  background: linear-gradient(white, rgb(43, 43,160));
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 500px;
+}
+body{
+  display: grid;
+  justify-content: center;
+  background-color: blueviolet;
+}
+img{
+  border-radius: 360px;
+  height: 200px;
+  width: 200px;
+  display: block;
+  object-fit: cover;
+  margin: 0 auto;
+  cursor: pointer;
+  /* animation: spin 4s linear infinite;
+      border: 2px solid black;
+    /* width: 100px;
+    height: 100px; */
+    background-color: green;
+    animation: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+      animation-direction: alternate; 
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+ color: aliceblue;
+margin: 200px;
+ transform: translate(70px, 70px);
+ background-image: linear-gradient(to bottom right, red, yellow, green, blue); */
+}
+button{
+  height: 50px;
+  width: 70px;
+  background-color: aqua;
+}
+p{
+  text-align: center;
+  color: black;
+}

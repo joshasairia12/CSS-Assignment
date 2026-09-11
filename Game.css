@@ -1,0 +1,28 @@
+body{
+    background-color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 300px;
+    justify-self: flex-end;
+}
+div{
+background-color: aqua;
+height: 400px;
+justify-items: center;
+align-content: center;
+}
+button.div{
+    justify-items: center;
+    align-content: center;
+    border-radius: 300px;
+    justify-self: center;
+}
+h2{
+    justify-self: center;
+}

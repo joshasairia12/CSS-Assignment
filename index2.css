@@ -1,0 +1,35 @@
+div{
+    background: linear-gradient(white, rgb(132, 202, 19));
+    display:grid;
+    justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 500px;
+}
+body{
+  display: grid;
+  justify-content: center;
+  background-color: rgb(32, 59, 4);
+}
+img{
+  border-radius: 360px;
+  height: 200px;
+  width: 200px;
+  display: block;
+  object-fit: cover;
+  margin: 0 auto;
+  cursor: pointer;
+}
+button{
+  height: 50px;
+  width: 100px;
+  background-color:rgb(188, 161, 10);
+  
+}
+p{
+  text-align: center;
+color: rgb(255, 187, 70);
+}

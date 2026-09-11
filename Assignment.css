@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+.grid-container{
+    
+    display: grid;
+    grid-template-columns: repeat(5, 70px);    /*each column will contain 1 fraction of the available space or just take the available space or if we have 1fr, 3 times ;it will take up 1 over 3 of the space*/
+    grid-template-rows: repeat(5, 70px);          /*each row will contain 1 fraction of the available space or just take the available space or if we have 1fr, 3 times ;it will take up 1 over 3 of the space*/
+    grid-gap: 10px;                               /*gap between rows and columns*/
+    gap: 1em;
+    justify-content: center;
+    
+}
+.item{
+
+    border: 1px solid black;
+    background-color: grey;
+    border-radius: 20px;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 500px;
+}
